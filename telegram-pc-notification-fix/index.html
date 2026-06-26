@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Telegram电脑版桌面通知不弹窗怎么办？消息延迟收不到修复</title><meta name="description" content="排查Telegram PC端消息通知不弹窗、通知延迟、静音后漏消息等问题，涵盖系统通知权限、专注助手、后台运行、通知缓存等完整修复流程，帮你解决TG桌面版消息提醒所有异常。"><meta name="keywords" content="telegram通知不弹窗,telegram消息延迟,telegram桌面通知修复,tg通知没反应"><link rel="canonical" href="https://ouqzg.cn/telegram-pc-notification-fix/"><link rel="alternate" hreflang="zh-CN" href="https://ouqzg.cn/telegram-pc-notification-fix/"><meta name="robots" content="index, follow"><!-- OG --><meta property="og:title" content="Telegram电脑版桌面通知不弹窗怎么办？消息延迟收不到修复"><meta property="og:description" content="排查Telegram PC端消息通知不弹窗、通知延迟、静音后漏消息等问题，涵盖系统通知权限、专注助手、后台运行、通知缓存等完整修复流程，帮你解决TG桌面版消息提醒所有异常。"><meta property="og:url" content="https://ouqzg.cn/telegram-pc-notification-fix/"><meta property="og:type" content="article"><meta property="og:image" content="https://ouqzg.cn/images/og-default.png"><meta name="twitter:card" content="summary_large_image"><!-- Favicon --><link rel="icon" type="image/svg+xml" href="/favicon.svg"><!-- Structured Data --><script type="application/ld+json">[{"@context":"https://schema.org","@type":"Article","headline":"Telegram电脑版桌面通知不弹窗怎么办？消息延迟收不到修复","description":"排查Telegram PC端消息通知不弹窗、通知延迟、静音后漏消息等问题，涵盖系统通知权限、专注助手、后台运行、通知缓存等完整修复流程，帮你解决TG桌面版消息提醒所有异常。","url":"https://ouqzg.cn/telegram-pc-notification-fix/","datePublished":"2026-06-26","dateModified":"2026-06-26","author":{"@type":"Organization","name":"TG教程指南"},"inLanguage":"zh-CN","image":"https://ouqzg.cn/images/og-default.png"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://ouqzg.cn"},{"@type":"ListItem","position":2,"name":"Telegram电脑版桌面通知不弹窗怎么办？消息延迟收不到修复"}]}]</script><style>.art-wrap[data-astro-cid-yvbahnfj]{max-width:1100px}</style></head> <body> <!-- Nav --> <nav class="site-nav"> <div class="nav-inner"> <a href="/" class="nav-logo">TG电脑版教程</a> <div class="nav-links"> <a href="/">首页</a> <a href="/articles/">所有教程</a> <a href="/articles/?category=download-pc">电脑版下载教程</a><a href="/articles/?category=install-pc">PC端安装步骤</a><a href="/articles/?category=crash-fix">电脑端闪退修复</a><a href="/articles/?category=win-settings">Windows适配设置</a><a href="/articles/?category=basic-usage">客户端基础使用</a> </div> </div> </nav> <!-- Breadcrumb (article pages) --> <div class="breadcrumb"> <a href="/">首页</a> <span> &raquo; Telegram电脑版桌面通知不弹窗怎么办？消息延迟收不到修复</span> </div> <main>  <div class="art-wrap" data-astro-cid-yvbahnfj> <article class="art-main" data-astro-cid-yvbahnfj> <h1 data-astro-cid-yvbahnfj>Telegram电脑版桌面通知不弹窗怎么办？消息延迟收不到修复</h1> <div class="art-meta" data-astro-cid-yvbahnfj> <span data-astro-cid-yvbahnfj>📅 2026-06-26</span> <span class="art-tag win-settings" data-astro-cid-yvbahnfj>Windows适配设置</span> </div> <div class="art-body" data-astro-cid-yvbahnfj>  <p>Telegram 桌面版的消息通知出问题是 Windows 用户反馈频率最高的故障之一。症状五花八门：消息来了没弹窗、弹窗延迟好几分钟、只有声音没有画面、关了静音还是收不到通知……大多数情况下不是程序本身的 bug，而是 Windows 系统层面的通知权限、专注助手、后台进程管理等多个环节中某一环断掉了。</p>
+<p>这篇文章按”先查 Telegram 自身 → 再查 Windows 系统 → 最后查后台运行”的顺序，把通知故障的所有可能原因和对应的修复步骤从头到尾理一遍。不用你懂技术，按步骤操作就行。</p>
+<blockquote>
+<p>如果还没有安装 Telegram 桌面版，或者安装过程中遇到了报错，先看这两篇把基础环境搭好：<a href="/telegram-pc-install-windows/">Win10/Win11安装Telegram桌面版完整步骤</a> 和 <a href="/telegram-pc-install-error/">Telegram电脑版安装报错排查指南</a>。</p>
+</blockquote>
+<h2 id="第一步检查-telegram-自身通知设置">第一步：检查 Telegram 自身通知设置</h2>
+<p>外部因素排查之前，先把内部设置确认一遍。很多人折腾半天系统配置，最后发现是 Telegram 里某个通知开关没打开。</p>
+<h3 id="通知总开关">通知总开关</h3>
+<p>打开 Telegram 桌面版 → 左上角三条横线 → 设置 → 通知与声音。第一个看到的项目就是”桌面通知”，确保它是打开状态。这个开关关掉的话，无论系统和聊天设置怎么配，都不会弹出任何通知。</p>
+<p>下面还有两个关联开关要确认：</p>
+<ul>
+<li><strong>消息预览</strong>：决定通知横幅中是否显示消息正文。即使你之前为了隐私关掉了，出于排查目的建议先打开，方便确认通知是否真的在弹出。</li>
+<li><strong>声音</strong>：纯音频开关。排查阶段也建议先打开，用声音来辅助判断通知送达的时间——如果你听到了提示音但没看到弹窗，问题就一定在系统的弹窗显示环节。</li>
+</ul>
+<h3 id="逐个对话类型的通知设置">逐个对话类型的通知设置</h3>
+<p>“通知与声音”页面往下滚动，会看到”私人聊天""群组聊天""频道”三个分类。每一类有三个选项：</p>
+<ul>
+<li>弹出通知并播放声音</li>
+<li>仅弹出通知不播放声音</li>
+<li>完全不通知</li>
+</ul>
+<p>常见的一个误区是：用户把群组通知设成了”完全不通知”，然后奇怪为什么群消息没有弹窗。检查一下，把需要收到通知的类型设为第一个选项即可。</p>
+<h3 id="个别聊天的静音状态">个别聊天的静音状态</h3>
+<p>即使全局通知设置正确，你也可以对单个聊天设置覆盖规则。在聊天列表中右键某个对话 → 选择”静音通知”，可以单独对这个聊天临时关闭通知。</p>
+<p>排查方法很简单：找一个你知道会收到消息的聊天（比如让别人给你发一条测试消息），右键确认没有勾选”静音通知”。很多用户之前给某个群设了静音后来忘了，排查了很久才发现问题在这里。</p>
+<h3 id="通知声音文件问题">通知声音文件问题</h3>
+<p>Telegram 桌面版的通知声音使用的是系统默认通知音。如果你把 Windows 系统声音方案设成了”无声”或者系统通知音量拉到了零，Telegram 自然不会有声音。检查路径：</p>
+<ol>
+<li>右键任务栏右下角喇叭图标 → 打开音量合成器。</li>
+<li>找到”Telegram Desktop”，确认音量滑块没有拉到底。</li>
+<li>进入”设置 → 系统 → 声音 → 高级声音选项 → 应用音量和设备首选项”，同样确认 Telegram 的音量状态。</li>
+</ol>
+<h2 id="第二步修复-windows-系统通知权限">第二步：修复 Windows 系统通知权限</h2>
+<p>Telegram 内部设置确认无误后，通知还是不弹窗，问题在 Windows 身上。系统级通知权限有三道关卡，任何一道卡住都会导致弹窗失败。</p>
+<h3 id="系统通知总开关">系统通知总开关</h3>
+<p>Windows 10/11 有一个全局通知开关，关掉后所有应用的桌面通知都会被禁用。检查步骤：</p>
+<ol>
+<li>打开 Windows 设置（Win+I）。</li>
+<li>进入”系统 → 通知和操作”（Win10）或”系统 → 通知”（Win11）。</li>
+<li>确认最顶部的”从应用和其他发送者获取通知”开关是打开的。</li>
+</ol>
+<p>如果这个开关是关闭的，不只是 Telegram，你的邮件、日历、其他即时通讯软件都不会弹通知。打开后，往下滚动到”来自这些发件人的通知”区域，找到 Telegram Desktop，确认其子开关也打开了。</p>
+<h3 id="telegram-通知详细权限">Telegram 通知详细权限</h3>
+<p>在”来自这些发件人的通知”列表中找到 Telegram Desktop 后，点击它（不是开关，是名字本身），会进入通知的详细设置页面。这里有几个关键选项需要确认：</p>
+<ul>
+<li><strong>显示通知横幅</strong>：核心选项，决定是否在屏幕右下角弹出横幅。如果关了，通知只会在通知中心静默存放，不会弹出。</li>
+<li><strong>在通知中心显示通知</strong>：决定收到通知后是否留在通知中心可回溯查看。</li>
+<li><strong>播放声音</strong>：决定通知是否有声音提示。</li>
+<li><strong>通知的优先级</strong>：Win11 中设为”高”可以让 Telegram 通知在专注助手模式下也能弹出。</li>
+</ul>
+<p>把所有选项打开并设为最高优先级，然后找人发一条消息测试。如果还是不弹窗，继续往下排查。</p>
+<h3 id="专注助手focus-assist拦截">专注助手（Focus Assist）拦截</h3>
+<p>这是 Windows 最”坑”的一个功能，也是 Telegram 通知消失的头号嫌疑人。</p>
+<p>专注助手是 Windows 10 版本 1803 引入的自动免打扰机制。当它处于”仅限闹钟”或”仅限优先通知”模式时，所有非系统级应用通知都会被拦截。更麻烦的是，专注助手经常会自动开启——比如你在全屏玩游戏或演示时、在特定时间段、甚至复制显示器时。</p>
+<p>排查方法：</p>
+<ol>
+<li>点击任务栏右下角通知图标（聊天气泡图标），打开操作中心。</li>
+<li>找到”专注助手”磁贴，确保它是关闭状态（没有高亮）。</li>
+<li>右键”专注助手”磁贴 → 选择”转到设置”。</li>
+<li>在专注助手设置页面，将状态设为”关闭”。</li>
+<li>往下翻，关闭所有自动规则——特别是”在以下时间段""在复制显示器时""在玩全屏游戏时”这三个最容易误触发的规则。</li>
+</ol>
+<p>关掉这些自动规则后，Telegram 通知通常立刻就恢复正常了。确认正常工作之后，你可以按需重新打开部分自动规则，但建议至少保留”在演示时”之前的通知通道。</p>
+<h2 id="第三步确认-telegram-后台运行状态">第三步：确认 Telegram 后台运行状态</h2>
+<p>通知不弹窗还有一个很常见但容易被忽略的原因：Telegram 本身没有在运行，或者被系统强制挂起了。</p>
+<h3 id="telegram-真的在后台运行吗">Telegram 真的在后台运行吗</h3>
+<p>按 Ctrl+Shift+Esc 打开任务管理器，切换到”详细信息”标签页，在列表中查找 <code>Telegram.exe</code>。如果找不到，说明程序没有运行——通知自然就没了。</p>
+<p>如果找得到 <code>Telegram.exe</code>，看一下它的状态列。如果显示”已暂停”或 CPU 占用为 0 且长时间不变，说明 Telegram 被系统挂起了。这种情况通常发生在笔记本电脑合盖后重新唤醒、或者长时间不操作 Telegram 的情况下。</p>
+<p>如果确认符合上述情况，请检查 <a href="/telegram-pc-optimization/">Telegram电脑版适配设置</a> 中的”开机自启”和”关闭到系统托盘”设置，确保这两个选项都配置正确。</p>
+<h3 id="系统托盘图标可见性">系统托盘图标可见性</h3>
+<p>Telegram 桌面版在勾选”关闭到托盘”后，关闭窗口时图标会进入系统托盘（任务栏右下角小图标区）。但 Windows 默认会把不常用的托盘图标折叠隐藏，你需要点击托盘区的小箭头（^）才能看到。</p>
+<p>如果 Telegram 图标藏在折叠区，你可能以为它已经退出了，于是手动重新打开，导致出现两个进程实例。解决方法：右键任务栏 → 任务栏设置 → “选择在任务栏上显示哪些图标”→ 找到 Telegram → 设为”开”，让它始终显示在托盘可见区。</p>
+<h3 id="windows-电源管理限制后台应用">Windows 电源管理限制后台应用</h3>
+<p>笔记本电脑的电源计划中，Windows 可能会在”省电模式”下限制后台应用的活动，导致 Telegram 收不到消息推送。排查步骤：</p>
+<ol>
+<li>打开 Windows 设置 → 系统 → 电源和睡眠 → 其他电源设置（Win10）/ 电源和电池（Win11）。</li>
+<li>查看当前电源计划。如果是”节能”模式，改为”平衡”或”高性能”。</li>
+<li>如果你使用的是笔记本电脑且不插电，可以进入”电池使用情况 → 按应用查看电池使用量”→ 找到 Telegram → 确保”让 Windows 决定此应用是否可以在后台运行”没有被限制。</li>
+</ol>
+<h2 id="第四步高级修复方案">第四步：高级修复方案</h2>
+<p>如果以上三步全部排查完毕但通知仍然不正常，再尝试以下深度修复。</p>
+<h3 id="清除-windows-通知缓存">清除 Windows 通知缓存</h3>
+<p>Windows 的通知系统会维护一个本地缓存。缓存损坏可能导致某些应用的通知无法正常显示。清除方法：</p>
+<ol>
+<li>关闭 Telegram 桌面版（右键托盘图标 → 退出）。</li>
+<li>按 Win+R 打开运行窗口，输入以下路径后回车：
+<code>%LOCALAPPDATA%\Microsoft\Windows\Notifications</code></li>
+<li>删除该文件夹内所有文件（可能需要先获取权限，系统会提示）。</li>
+<li>重启电脑。</li>
+<li>重新打开 Telegram，找人发一条测试消息。</li>
+</ol>
+<p>注意：删除通知缓存不会影响任何聊天记录或个人数据，它只是 Windows 系统通知显示的临时文件。重启后 Windows 会自动重建缓存。</p>
+<h3 id="重置-windows-通知设置">重置 Windows 通知设置</h3>
+<p>如果清除缓存还不行，可以尝试通过 PowerShell 重置整个通知系统：</p>
+<ol>
+<li>右键开始菜单 → 选择”Windows PowerShell（管理员）“或”终端（管理员）”。</li>
+<li>逐条执行以下命令（每条回车后等执行完毕再输入下一条）：</li>
+</ol>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><code><span class="line"><span>Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage</span></span>
+<span class="line"><span>Get-AppxPackage *windowscommunicationsapps* | Add-AppxPackage -Register -DisableDevelopmentMode</span></span></code></pre>
+<ol start="3">
+<li>执行完毕后重启电脑。</li>
+</ol>
+<p>这个操作会重置 Windows 内置的通知组件，相当于重装了一遍系统通知模块。操作前后 Telegram 的聊天数据不受影响。</p>
+<h3 id="telegram-桌面版本身的重置方案">Telegram 桌面版本身的重置方案</h3>
+<p>如果确认是 Telegram 客户端内部的配置问题，可以尝试以下操作（由轻到重）：</p>
+<ul>
+<li><strong>退出重新登录</strong>：在 Telegram 设置 → 编辑 → 退出账号，然后重新登录。注意退出前确认你的验证码能收到（手机上 Telegram 正常在线）。</li>
+<li><strong>清除本地数据</strong>：关闭 Telegram 后，删除 <code>%LOCALAPPDATA%\Telegram Desktop</code> 文件夹（或改名备份）。重新打开 Telegram 会重新下载所有聊天记录和设置。这个操作不会丢失聊天记录（因为 Telegram 是云端存储），但会丢失本地下载的媒体文件和手动调整过的界面设置。</li>
+<li><strong>重装程序</strong>：如果上述方法全无效，可以卸载重装。关于正确的卸载和重装步骤，参考 <a href="/telegram-pc-official-download/">Telegram电脑版官方下载渠道全解析</a>。</li>
+</ul>
+<h2 id="常见问题-faq">常见问题 FAQ</h2>
+<div class="faq-list">
+<div class="faq-item">
+<div class="faq-q">Telegram 消息延迟好几分钟才弹通知，是什么原因？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">消息延迟通常来自三个方面：一是后台应用被省电策略限制（笔记本常见），在 Windows 电源设置中关闭省电模式或在电池设置中允许 Telegram 后台运行即可；二是网络代理的延迟，如果使用了网络工具，尝试切换节点或协议；三是 Telegram 服务器在当前地区存在连接波动，这种情况只能等待官方优化，客户端端无法主动解决。</div></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">只有声音没有弹窗通知，怎么解决？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">这说明 Telegram 内部通知和系统音频都是正常的，唯独弹窗显示环节出了问题。直接排查第三步中的 Windows 通知权限设置，重点确认"显示通知横幅"选项是否打开。另一个可能是通知中心积压过多，在操作中心清除所有旧通知后再试。</div></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">取消静音后还是收不到通知？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">静音有两种：全局静音（Telegram 设置中的通知总开关）和单个聊天静音。取消全局静音后，还要检查具体聊天是不是被单独静音了。右键该聊天 → 如果是"取消静音通知"则说明之前被静音了，点一下即可。另外，如果你之前给该聊天设置了"静音 2 天"或"静音 8 小时"，过了时间会自动恢复——如果还没到时间，通知确实不会弹。</div></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Windows 更新后 Telegram 通知突然不弹了？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">Windows 累积更新有时会重置通知权限配置。更新后建议第一时间检查：Windows 设置 → 系统 → 通知 → 确认通知总开关和 Telegram 子开关都打开了。另外，某些大版本更新（如 Win10 22H2 → Win11）会默认启用专注助手，这也是更新后通知消失的常见原因。</div></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Telegram 通知弹窗能看到消息内容，不想让别人看到怎么办？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">进入 Telegram 设置 → 通知与声音 → 关闭"消息预览"即可。关闭后通知横幅只会显示"新消息"而不显示具体文字内容。如果你在使用 Windows 11，还可以在系统通知设置中将 Telegram 的通知设为"不显示横幅内容"——这样即使 Telegram 内部打开了消息预览，系统层也会拦截内容显示。</div></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">多台设备同时登录 Telegram，通知只在手机上弹，电脑不动？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">Telegram 的通知推送逻辑是按设备活跃度分配的：如果你正在手机上使用 Telegram，桌面端的通知可能会被暂时抑制，避免多设备同时响铃的尴尬。这是设计特性不是故障。如果想让电脑端稳定收到通知，确保电脑端 Telegram 窗口是打开状态（或最小化到托盘），并且在手机端退出 Telegram 后电脑端通知会立刻恢复。关于多设备同步的更多细节，可以参考 <a href="/telegram-pc-sync-setup/">Telegram电脑版多设备同步设置教程</a>。</div></div>
+</div>
+</div>
+<h2 id="小结">小结</h2>
+<p>Telegram 桌面版通知故障的排查本质上是一个”逐环检查”的过程：先确认 Telegram 内部设置 → 再确认 Windows 系统通知权限 → 最后确认后台运行状态。90% 的问题在前两步就能解决，剩下 10% 大多是专注助手自动规则或者省电策略在捣乱。</p>
+<p>另外提醒一个很容易踩的坑：如果你卸载重装 Telegram，系统通知权限和专注助手的白名单不会自动恢复——之前你把 Telegram 加入过允许列表，重装后被系统视为”新应用”，需要重新授权。所以卸载前最好截图记一下之前的配置。</p>
+<p>如果你遇到的是 Telegram 桌面版闪退或崩溃的问题，通知修复和程序稳定性修复是两回事，请参考 <a href="/telegram-pc-crash-fix/">Telegram电脑版闪退崩溃修复指南</a>。</p>
+<blockquote>
+<p>📢 声明：本文内容仅供海外合规地区用户学习参考，不提供网络访问方案，不引导任何违规操作。所有排查步骤基于 Windows 10/11 系统默认设置环境，第三方安全软件或企业域策略可能产生额外干扰，具体以实际环境为准。</p>
+</blockquote> </div> </article> <!-- Sidebar --> <aside class="art-side" data-astro-cid-yvbahnfj> <div class="sb-card" data-astro-cid-yvbahnfj> <h4 data-astro-cid-yvbahnfj>相关教程</h4> <a href="/telegram-pc-optimization/" class="sb-rel-item" data-astro-cid-yvbahnfj> <h5 data-astro-cid-yvbahnfj>Telegram电脑版适配设置全攻略｜缩放字体、通知与开机自启</h5> </a> </div> <div class="sb-card" data-astro-cid-yvbahnfj> <h4 data-astro-cid-yvbahnfj>热门标签</h4> <div class="trend-tags" data-astro-cid-yvbahnfj> <a href="/articles/?category=download-pc" data-astro-cid-yvbahnfj>电脑版下载教程</a><a href="/articles/?category=install-pc" data-astro-cid-yvbahnfj>PC端安装步骤</a><a href="/articles/?category=crash-fix" data-astro-cid-yvbahnfj>电脑端闪退修复</a><a href="/articles/?category=win-settings" data-astro-cid-yvbahnfj>Windows适配设置</a><a href="/articles/?category=basic-usage" data-astro-cid-yvbahnfj>客户端基础使用</a> </div> </div> </aside> </div>  </main> <!-- Footer --> <footer class="site-footer"> <div class="footer-inner"> <div class="footer-brand"> <div class="footer-logo">TG电脑版教程</div> <p class="footer-desc">本站为独立教程站点，非 Telegram 官方。所有内容基于公开信息整理。</p> <span class="footer-badge">📚 独立教程网站</span> </div> <div class="footer-col"> <h4>快速导航</h4> <ul> <li><a href="/">首页</a></li> <li><a href="/articles/">所有教程</a></li> <li><a href="/about/">关于我们</a></li> <li><a href="/sitemap/">网站地图</a></li> </ul> </div> <div class="footer-col"> <h4>教程分类</h4> <ul> <li><a href="/articles/?category=download-pc">电脑版下载教程</a></li><li><a href="/articles/?category=install-pc">PC端安装步骤</a></li><li><a href="/articles/?category=crash-fix">电脑端闪退修复</a></li><li><a href="/articles/?category=win-settings">Windows适配设置</a></li><li><a href="/articles/?category=basic-usage">客户端基础使用</a></li> </ul> </div> <div class="footer-col"> <h4>支持</h4> <ul> <li><a href="/contact/">联系我们</a></li> <li><a href="/privacy/">隐私政策</a></li> </ul> </div> </div> <div class="footer-bottom"> <p>&copy; 2026 TG电脑版教程. All rights reserved.</p> </div> </footer> <!-- Inject global CSS (plain <style> avoids Astro's CSS processing) --> <style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,'Noto Sans SC',sans-serif;background:#ffffff;color:#1e293b;line-height:1.6}a{color:#0078D4;text-decoration:none}a:hover{color:#106EBE}.site-nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,0,0,.06);padding:0 24px}.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:60px}.nav-logo{font-size:18px;font-weight:700;color:#0078D4;text-decoration:none}.nav-links{display:flex;gap:24px}.nav-links a{font-size:14px;color:#475569;text-decoration:none;transition:color .2s}.nav-links a:hover,.nav-links a.active{color:#0078D4}.breadcrumb{max-width:1100px;margin:0 auto;padding:16px 24px 0;font-size:13px;color:#94a3b8}.breadcrumb a{color:#0078D4;text-decoration:none}.art-wrap{max-width:1100px;margin:0 auto;padding:24px;display:flex;gap:32px}.art-main{flex:1;min-width:0;background:#fff;border-radius:12px;padding:40px;box-shadow:0 1px 3px rgba(0,0,0,.04)}.art-main h1{font-size:28px;font-weight:800;line-height:1.4;margin-bottom:16px;color:#1e293b}.art-meta{display:flex;gap:16px;align-items:center;margin-bottom:24px;font-size:13px;color:#94a3b8}.art-tag{display:inline-block;font-size:11px;font-weight:600;padding:3px 10px;border-radius:6px}.art-tag.download-pc{background:#e0f2fe;color:#0369a1}.art-tag.install-pc{background:#ecfdf5;color:#065f46}.art-tag.crash-fix{background:#fef3c7;color:#92400e}.art-tag.win-settings{background:#f3e8ff;color:#7c3aed}.art-tag.basic-usage{background:#fce7f3;color:#be185d}.art-body{font-size:15px;line-height:1.9;color:#475569}.art-body h2{font-size:22px;font-weight:700;margin:36px 0 16px;color:#1e293b}.art-body h3{font-size:18px;font-weight:600;margin:28px 0 12px;color:#1e293b}.art-body p{margin-bottom:16px}.art-body ul,.art-body ol{margin:12px 0 16px 24px}.art-body li{margin-bottom:8px}.art-body code{background:#f5f7fa;padding:2px 6px;border-radius:4px;font-size:13px;color:#e11d48}.art-body pre{background:#1e293b;color:#e2e8f0;padding:20px;border-radius:8px;overflow-x:auto;margin:16px 0;font-size:13px}.art-side{width:300px;flex-shrink:0}.sb-card{background:#fff;border-radius:12px;padding:20px;margin-bottom:20px;box-shadow:0 1px 3px rgba(0,0,0,.04)}.sb-card h4{font-size:14px;font-weight:700;margin-bottom:12px;color:#1e293b}.sb-rel-item{display:flex;gap:10px;margin-bottom:12px;text-decoration:none;color:inherit}.sb-rel-item:hover h5{color:#0078D4}.sb-rel-item h5{font-size:13px;font-weight:500;line-height:1.4;transition:color .2s}.trend-tags{display:flex;flex-wrap:wrap;gap:8px}.trend-tags a{font-size:12px;padding:4px 12px;background:#f5f7fa;border-radius:16px;color:#475569;text-decoration:none;transition:all .2s}.trend-tags a:hover{background:#e0f2fe;color:#0078D4}.info-box{background:#f0f9ff;border-left:4px solid #0078D4;padding:16px 20px;margin:20px 0;border-radius:0 8px 8px 0;font-size:14px}.warn-box{background:#fffbeb;border-left:4px solid #f59e0b;padding:16px 20px;margin:20px 0;border-radius:0 8px 8px 0;font-size:14px}.warn-box strong{color:#92400e}.step-list{counter-reset:step;margin:20px 0}.step-card{background:#fff;border:1px solid #e8ecf1;border-radius:10px;padding:20px;margin-bottom:16px;counter-increment:step;position:relative;padding-left:64px}.step-card::before{content:counter(step);position:absolute;left:16px;top:20px;width:32px;height:32px;background:#0078D4;color:#fff;border-radius:50%;text-align:center;line-height:32px;font-weight:700;font-size:14px}.faq-list{margin:24px 0}.faq-item{border:1px solid #e8ecf1;border-radius:8px;margin-bottom:8px;overflow:hidden}.faq-q{padding:16px 20px;cursor:pointer;font-weight:600;font-size:15px;background:#f5f7fa;user-select:none;display:flex;justify-content:space-between;align-items:center}.faq-q:hover{background:#f0f7ff}.faq-arrow{font-size:12px;transition:transform .3s;color:#94a3b8}.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}.faq-a-inner{padding:0 20px 16px;font-size:14px;color:#475569;line-height:1.7}.faq-item.open .faq-a{max-height:300px}.faq-item.open .faq-arrow{transform:rotate(180deg)}table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px}th{background:#f0f7ff;padding:12px 16px;text-align:left;font-weight:600;border:1px solid #dce8f3}td{padding:12px 16px;border:1px solid #e8ecf1}.site-footer{background:#f0f7ff;border-top:1px solid #dce8f3;margin-top:80px}.footer-inner{max-width:1100px;margin:0 auto;padding:56px 24px 40px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}.footer-logo{font-size:20px;font-weight:700;color:#106EBE;margin-bottom:12px}.footer-desc{font-size:13px;line-height:1.8;margin-bottom:16px;color:#475569}.footer-badge{display:inline-block;font-size:12px;background:#fff;color:#0078D4;padding:6px 14px;border-radius:20px;font-weight:500;border:1px solid #b8ddf5}.footer-col h4{font-size:13px;font-weight:700;color:#1e293b;margin-bottom:16px;letter-spacing:.02em}.footer-col ul{list-style:none}.footer-col li{margin-bottom:10px}.footer-col li a{font-size:13px;color:#475569;text-decoration:none;transition:color .2s}.footer-col li a:hover{color:#0078D4}.footer-bottom{border-top:1px solid #dce8f3;text-align:center;padding:20px 24px;font-size:12px;color:#94a3b8}@media(max-width:768px){.nav-links{display:none}.art-wrap{flex-direction:column}.art-main{padding:24px}.art-side{width:100%}.footer-inner{grid-template-columns:1fr 1fr;gap:32px}.footer-brand{grid-column:1/-1}}@media(max-width:480px){.footer-inner{grid-template-columns:1fr}}</style> <!-- FAQ accordion JS --> <script>
+    document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.faq-q').forEach(function(q){q.addEventListener('click',function(){var item=q.parentElement;var open=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('open');i.querySelector('.faq-a').style.maxHeight='0'});if(!open){item.classList.add('open');item.querySelector('.faq-a').style.maxHeight='500px'}})})});
+  </script> </body> </html>

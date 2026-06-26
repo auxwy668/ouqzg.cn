@@ -1,0 +1,199 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Telegram电脑端同步手机消息与多设备登录管理教程</title><meta name="description" content="Telegram PC端登录后如何同步手机聊天记录和联系人，多设备同时在线管理方法，以及扫码登录与手机号登录的区别。本文详细讲解同步原理、操作步骤、常见问题解决，帮你轻松实现电脑手机无缝切换使用TG。"><meta name="keywords" content="telegram电脑同步,telegram多设备登录,tg扫码登录"><link rel="canonical" href="https://ouqzg.cn/telegram-pc-sync-setup/"><link rel="alternate" hreflang="zh-CN" href="https://ouqzg.cn/telegram-pc-sync-setup/"><meta name="robots" content="index, follow"><!-- OG --><meta property="og:title" content="Telegram电脑端同步手机消息与多设备登录管理教程"><meta property="og:description" content="Telegram PC端登录后如何同步手机聊天记录和联系人，多设备同时在线管理方法，以及扫码登录与手机号登录的区别。本文详细讲解同步原理、操作步骤、常见问题解决，帮你轻松实现电脑手机无缝切换使用TG。"><meta property="og:url" content="https://ouqzg.cn/telegram-pc-sync-setup/"><meta property="og:type" content="article"><meta property="og:image" content="https://ouqzg.cn/images/og-default.png"><meta name="twitter:card" content="summary_large_image"><!-- Favicon --><link rel="icon" type="image/svg+xml" href="/favicon.svg"><!-- Structured Data --><script type="application/ld+json">[{"@context":"https://schema.org","@type":"Article","headline":"Telegram电脑端同步手机消息与多设备登录管理教程","description":"Telegram PC端登录后如何同步手机聊天记录和联系人，多设备同时在线管理方法，以及扫码登录与手机号登录的区别。本文详细讲解同步原理、操作步骤、常见问题解决，帮你轻松实现电脑手机无缝切换使用TG。","url":"https://ouqzg.cn/telegram-pc-sync-setup/","datePublished":"2026-06-26","dateModified":"2026-06-26","author":{"@type":"Organization","name":"TG教程指南"},"inLanguage":"zh-CN","image":"https://ouqzg.cn/images/og-default.png"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://ouqzg.cn"},{"@type":"ListItem","position":2,"name":"Telegram电脑端同步手机消息与多设备登录管理教程"}]}]</script><style>.art-wrap[data-astro-cid-yvbahnfj]{max-width:1100px}</style></head> <body> <!-- Nav --> <nav class="site-nav"> <div class="nav-inner"> <a href="/" class="nav-logo">TG电脑版教程</a> <div class="nav-links"> <a href="/">首页</a> <a href="/articles/">所有教程</a> <a href="/articles/?category=download-pc">电脑版下载教程</a><a href="/articles/?category=install-pc">PC端安装步骤</a><a href="/articles/?category=crash-fix">电脑端闪退修复</a><a href="/articles/?category=win-settings">Windows适配设置</a><a href="/articles/?category=basic-usage">客户端基础使用</a> </div> </div> </nav> <!-- Breadcrumb (article pages) --> <div class="breadcrumb"> <a href="/">首页</a> <span> &raquo; Telegram电脑端同步手机消息与多设备登录管理教程</span> </div> <main>  <div class="art-wrap" data-astro-cid-yvbahnfj> <article class="art-main" data-astro-cid-yvbahnfj> <h1 data-astro-cid-yvbahnfj>Telegram电脑端同步手机消息与多设备登录管理教程</h1> <div class="art-meta" data-astro-cid-yvbahnfj> <span data-astro-cid-yvbahnfj>📅 2026-06-26</span> <span class="art-tag basic-usage" data-astro-cid-yvbahnfj>客户端基础使用</span> </div> <div class="art-body" data-astro-cid-yvbahnfj> <img src="/images/default-cover.jpg" alt="Telegram电脑端同步手机消息与多设备登录管理教程" style="width:100%; border-radius:8px; margin-bottom:24px;" data-astro-cid-yvbahnfj> <p>很多人习惯在手机上用Telegram，但工作或学习时盯着小屏幕打字实在不方便。Telegram的多设备同步能力恰好解决了这个痛点——你在电脑上登录同一个TG账号后，聊天记录、联系人、群组都会自动同步过来，手机和电脑可以无缝切换使用。</p>
+<p>但这套机制背后涉及云端同步原理、设备管理权限、以及扫码登录与手机号登录的技术差异。搞清楚这些，不仅能提升日常效率，还能避免多设备使用中的安全误区。</p>
+<p>本文面向刚开始尝试Telegram电脑版的用户，系统梳理同步设置、多设备管理、登录方式选择三个核心问题，手把手带你完成配置。</p>
+<h2 id="telegram多设备同步的工作原理">Telegram多设备同步的工作原理</h2>
+<p>Telegram的同步机制和微信、QQ这类IM工具有本质区别。微信电脑版依赖手机端持续在线来中转消息，手机没电了电脑端就收不到消息。而Telegram采用<strong>云端优先</strong>架构，所有消息、文件、联系人数据都存储在Telegram服务器上，每个设备都是独立的客户端，直接从云端拉取数据。</p>
+<h3 id="云端存储-vs-本地中转">云端存储 vs 本地中转</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>对比维度</th><th>Telegram</th><th>微信</th></tr></thead><tbody><tr><td>消息存储</td><td>云端永久保存</td><td>本地为主，云端有限备份</td></tr><tr><td>电脑端独立性</td><td>完全独立，无需手机在线</td><td>依赖手机扫码/在线</td></tr><tr><td>历史消息同步</td><td>自动同步全部历史</td><td>仅同步最近少量消息</td></tr><tr><td>多设备数量</td><td>无严格限制</td><td>1手机+1电脑+1平板</td></tr></tbody></table>
+<p>这就是为什么你在电脑上首次登录Telegram后，几秒钟内就能看到全部聊天记录——系统直接从云端拉取了所有历史数据，而不是从手机转发。</p>
+<h3 id="同步哪些数据">同步哪些数据</h3>
+<p>Telegram电脑端登录后会同步以下内容：</p>
+<ul>
+<li><strong>聊天记录</strong>：包括私聊、群组、频道中的所有消息，历史记录完整保留</li>
+<li><strong>联系人列表</strong>：手机通讯录中的Telegram联系人和手动添加的联系人</li>
+<li><strong>群组和频道</strong>：你加入的所有群组和订阅的频道</li>
+<li><strong>已保存消息</strong>：Saved Messages中的全部内容（相当于TG的私有云笔记）</li>
+<li><strong>贴纸和表情包</strong>：你添加的所有贴纸包</li>
+<li><strong>设置项</strong>：部分设置（如通知偏好、隐私设置）会在设备间同步</li>
+</ul>
+<p>不实时同步的内容包括：聊天文件夹分类（需要手动重建）、部分外观主题设置、以及本地缓存文件。</p>
+<h2 id="电脑端登录方式详解">电脑端登录方式详解</h2>
+<p>Telegram电脑版提供两种登录方式：<strong>手机号+验证码登录</strong>和<strong>扫码登录</strong>。两者在便捷性、安全性、适用场景上各有优劣。</p>
+<h3 id="方式一手机号登录">方式一：手机号登录</h3>
+<p>这是最基础的登录方式，和手机端注册流程类似：</p>
+<ol>
+<li>打开Telegram桌面客户端，点击”开始消息”或”登录”</li>
+<li>选择国家/地区（中国用户选+86）</li>
+<li>输入手机号码</li>
+<li>Telegram向该手机号的Telegram App发送<strong>验证码</strong>（注意：验证码发到已登录的Telegram App内，不是短信）</li>
+<li>在手机上查看验证码，输入到电脑端</li>
+</ol>
+<p><strong>适用场景</strong>：首次在全新设备上登录、手机不在身边但能接收App内验证码、需要建立独立设备凭证时。</p>
+<h3 id="方式二扫码登录推荐">方式二：扫码登录（推荐）</h3>
+<p>如果你手机上的Telegram已经登录，扫码是最快捷的方式：</p>
+<ol>
+<li>打开电脑端Telegram，点击”通过扫码快速登录”或等待二维码显示</li>
+<li>打开手机Telegram → 设置 → 设备 → 扫描二维码</li>
+<li>对准电脑屏幕上的二维码扫码</li>
+<li>手机端确认登录</li>
+</ol>
+<p>扫码登录本质是通过已授权设备为新设备”背书”，省去了输入手机号和验证码的过程。从安全角度看，扫码登录等同于手机端确认身份，比输入验证码更能防止中间人攻击。</p>
+<p><strong>关键区别</strong>：手机关机或没网络时，扫码登录无法使用，但手机号+验证码登录仍然可以——只要你的手机号能收到Telegram App内的验证码（需手机开机且有网络）。</p>
+<h2 id="首次登录后的同步过程">首次登录后的同步过程</h2>
+<p>电脑端成功登录后，同步会自动开始。整个过程分为几个阶段：</p>
+<h3 id="阶段一联系人同步">阶段一：联系人同步</h3>
+<p>登录成功后，客户端会立即从云端拉取联系人列表。通常在5-10秒内完成。你会看到左侧聊天列表逐行出现，联系人头像和名称陆续加载。</p>
+<h3 id="阶段二聊天记录同步">阶段二：聊天记录同步</h3>
+<p>这是耗时最长的阶段。Telegram采用<strong>渐进式加载</strong>策略：</p>
+<ul>
+<li>最近活跃的聊天会优先显示，聊天记录从上往下逐步加载</li>
+<li>大群组和频道的消息加载速度可能较慢，取决于消息总量</li>
+<li>图片、视频、文件等媒体内容不会自动下载，仅在点击时按需获取</li>
+</ul>
+<p>同步速度受网络带宽和账号数据量影响。一个使用三年、加了几十个群组的账号，首次同步全部历史聊天记录可能需要几分钟到十几分钟。</p>
+<h3 id="阶段三后台持续下载">阶段三：后台持续下载</h3>
+<p>聊天列表显示后，Telegram在后台持续下载更多历史消息和媒体文件的缩略图。这个阶段你可以正常使用，不会影响收发新消息。如果看到某个聊天打开后消息不全，稍等片刻再打开即可。</p>
+<h2 id="多设备同时在线管理">多设备同时在线管理</h2>
+<p>Telegram支持<strong>多设备同时在线</strong>，你可以在电脑、手机、平板甚至多台电脑上同时登录同一个账号。所有设备独立接收消息，彼此互不影响。</p>
+<h3 id="查看在线设备">查看在线设备</h3>
+<p>在手机端可以管理所有登录设备：</p>
+<ol>
+<li>打开手机Telegram → 设置 → 设备</li>
+<li>查看当前所有活跃会话列表</li>
+<li>每个设备显示：设备名称、操作系统、IP地址、最后活跃时间、登录地点</li>
+</ol>
+<p>这意味着你可以随时监控账号的登录状态。如果发现不认识的设备，可以立即一键下线，有效防止账号被盗用。</p>
+<h3 id="管理设备会话">管理设备会话</h3>
+<p>设备列表中的操作选项：</p>
+<ul>
+<li><strong>结束会话</strong>：强制该设备下线，下次需要重新登录</li>
+<li><strong>查看详细信息</strong>：确认设备型号和登录地点是否匹配</li>
+<li><strong>多台电脑场景</strong>：家里一台、公司一台、笔记本一台，三台同时在线完全没问题</li>
+</ul>
+<p>重要提示：如果某台设备超过<strong>6个月</strong>未活动，Telegram会自动将其下线。这是被动安全机制，防止你遗忘的旧设备成为安全隐患。</p>
+<h3 id="桌面端活动状态设置">桌面端活动状态设置</h3>
+<p>电脑端Telegram有一个特殊设置项值得关注——<strong>自动离开（Auto-Away）</strong>：</p>
+<ul>
+<li>默认开启：键盘鼠标无操作一段时间后自动显示”最后在线时间”而非”在线”</li>
+<li>关闭后：只要电脑不关机，始终显示在线状态</li>
+<li>设置路径：设置 → 高级 → 自动离开（Auto-away）</li>
+</ul>
+<p>对于需要保持在线形象的工作场景，可以考虑关闭此选项。但长时间离开电脑时建议手动锁定，避免隐私泄露。</p>
+<h2 id="同步中的常见问题与解决">同步中的常见问题与解决</h2>
+<h3 id="聊天记录不完整">聊天记录不完整</h3>
+<p>如果登录后发现聊天记录只显示最近几天的，可能是以下原因：</p>
+<ol>
+<li><strong>客户端版本过旧</strong>：从<a href="/telegram-pc-official-download/">Telegram PC官方下载</a>获取最新版本，旧版本可能存在同步Bug</li>
+<li><strong>网络不稳定</strong>：切换到一个稳定的网络环境，重启客户端让同步从断点继续</li>
+<li><strong>缓存损坏</strong>：清理Telegram本地缓存（设置 → 高级 → 管理本地存储 → 清除缓存），不会删除云端数据</li>
+</ol>
+<h3 id="联系人未同步">联系人未同步</h3>
+<p>登录后联系人列表为空或不完整时：</p>
+<ol>
+<li>确认手机端联系人权限：手机Telegram → 设置 → 隐私与安全 → 数据设置 → 启用”同步联系人”</li>
+<li>如果关闭了联系人同步，电脑端只会显示有聊天记录的联系人和手动添加的联系人</li>
+<li>联系人同步需要手机端App在后台运行一次</li>
+</ol>
+<h3 id="登录验证码收不到">登录验证码收不到</h3>
+<p>这是新用户最常见的困扰。Telegram的验证码发给<strong>Telegram App内</strong>，不是手机短信：</p>
+<ul>
+<li>先在手机上登录Telegram账号</li>
+<li>电脑端触发登录后，手机会收到Telegram App内的消息通知</li>
+<li>如果手机端也没登录（比如换了新手机），你需要通过短信验证码先登录手机端</li>
+</ul>
+<h3 id="多设备消息不同步">多设备消息不同步</h3>
+<p>偶尔会出现电脑端消息比手机端慢几秒的情况，这是正常的网络延迟。但如果某台设备长时间收不到新消息：</p>
+<ol>
+<li>检查该设备网络连接</li>
+<li>退出登录后重新登录，触发云端重新同步</li>
+<li>如果持续异常，参考<a href="/telegram-pc-crash-fix/">Telegram电脑版崩溃闪退修复</a>排查系统兼容性问题</li>
+</ol>
+<h2 id="设备切换时的消息连续性">设备切换时的消息连续性</h2>
+<p>很多人关心的一个实际场景是：在公司和家之间切换电脑时，聊天记录能不能接上？</p>
+<p>答案是<strong>完全无缝</strong>。因为消息存储在云端，你在公司电脑上发的消息，回到家打开家里电脑就能看到。同样的，在公司电脑上关闭客户端后，手机端会继续接收消息，回家后电脑端自动补齐这段时间内的新消息。</p>
+<p>这种跨设备连续性在实际使用中非常丝滑——你不需要手动”传输”聊天记录，也不需要担心两台电脑之间数据不一致。</p>
+<h3 id="无缝切换的三个前提">无缝切换的三个前提</h3>
+<ol>
+<li>所有设备使用<strong>同一个Telegram账号</strong></li>
+<li>设备有<strong>稳定的网络连接</strong></li>
+<li>Telegram客户端版本为<strong>最新版</strong>（可以从<a href="/telegram-pc-install-windows/">Telegram电脑版安装教程</a>了解安装流程）</li>
+</ol>
+<p>只要满足这三个条件，你在任意设备上的操作都会实时反映到云端，并在其他设备上同步显示。</p>
+<h2 id="安全建议">安全建议</h2>
+<p>多设备使用带来便利的同时，也增加了账号安全风险。做好以下几点：</p>
+<ol>
+<li><strong>定期检查活跃设备</strong>：每月看一眼设备列表，确保没有陌生设备</li>
+<li><strong>设置两步验证</strong>：在手机端设置 → 隐私与安全 → 两步验证，设置独立密码，即使SIM卡被复制也无法登录</li>
+<li><strong>公共电脑用完必退出</strong>：在他人电脑或网吧登录后，离开前主动退出登录（设置 → 编辑 → 退出）</li>
+<li><strong>开启登录通知</strong>：新设备登录时，已登录设备会收到通知提醒，及时发现异常</li>
+<li><strong>注意网络环境安全</strong>：警惕<a href="/telegram-pc-fake-installer/">Telegram电脑版假冒安装包</a>，务必从官方渠道下载客户端</li>
+</ol>
+<p>如果收到异常登录通知且设备列表中出现了陌生设备，立即在安全的设备上进入设置 → 设备 → 结束该陌生会话，然后修改登录密码。</p>
+<h2 id="总结">总结</h2>
+<p>Telegram的多设备同步机制是其核心竞争力之一。云端优先的架构让电脑端可以完全独立工作，不需要手机中转，历史聊天记录全量同步。扫码登录和手机号登录各有适用场景，日常使用推荐扫码登录，方便又安全。</p>
+<p>多设备同时在线管理也很简单——在手机端即可查看和控制所有活跃设备。养成定期检查设备列表、开启两步验证的习惯，就能在享受多设备便利的同时保持账号安全。</p>
+<div class="faq-list">
+<div class="faq-item">
+<div class="faq-q">Telegram电脑端需要手机一直在线吗？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">不需要。Telegram采用云端架构，电脑端完全独立工作。即使手机关机或没有网络，电脑端仍然可以正常收发消息、查看全部聊天记录。这和微信的"电脑端依赖手机在线"的机制完全不同。</div></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">扫码登录和手机号登录哪个更安全？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">扫码登录相对更安全。扫码需要在已登录的手机上确认，相当于用已授权设备为新设备背书，可以减少验证码被截取的风险。但手机号+验证码登录同样安全——验证码发送到Telegram App内而非短信，且使用了端到端加密。日常使用推荐扫码登录，方便且安全。</div></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">最多可以几台设备同时在线？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">Telegram没有严格的设备数量上限。你可以同时在手机、多台电脑、平板等设备上登录同一个账号。但超过6个月未活动的设备会被自动下线。实际使用中建议控制在日常使用的3-5台设备以内，方便管理和安全监控。</div></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">换新电脑后聊天记录还在吗？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">完全在。因为聊天记录存储在Telegram云端，换新电脑后重新登录即可看到全部历史消息。不需要从旧电脑迁移数据，也不需要备份文件。唯一的例外是"私密聊天（Secret Chat）"——这种聊天是端到端加密且存储在本地的，换设备后无法同步。</div></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">电脑上能看到手机端的私密聊天吗？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">不能。私密聊天是设备绑定的端到端加密对话，只在发起聊天的设备上可见。如果你在手机上开启了私密聊天，电脑端登录后看不到这些对话。这是设计上的安全特性，确保私密聊天内容只在本地设备上存在，不会上传到云端同步。</div></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">多设备在线时消息通知会重复吗？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">会的，但Telegram会智能处理。当你在电脑上活跃使用时，手机会暂停推送通知，避免多设备同时响铃。如果你在电脑端阅读了某条消息，手机端的通知会自动消失。如果遇到通知混乱的情况，可以参考<a href="/telegram-pc-notification-fix/">Telegram电脑版通知不弹窗修复</a>进行调整。</div></div>
+</div>
+<div class="faq-item">
+<div class="faq-q">电脑端登录后联系人为什么少了？ <span class="faq-arrow">▼</span></div>
+<div class="faq-a"><div class="faq-a-inner">Telegram电脑端默认显示所有联系人和有聊天记录的人。如果你在手机端关闭了"同步联系人"功能，电脑端只能看到你手动添加的联系人和有过对话的人。解决方法：在手机端设置 → 隐私与安全 → 开启联系人同步，等待同步完成后电脑端刷新即可。</div></div>
+</div>
+</div>
+<blockquote>
+<p>📢 声明：本文基于Telegram桌面客户端当前版本的官方功能编写，所有操作步骤均经实际测试验证。Telegram的功能和界面可能随版本更新而调整，请以实际客户端为准。安全建议为通用最佳实践，具体设置请结合个人使用习惯酌情配置。</p>
+</blockquote> </div> </article> <!-- Sidebar --> <aside class="art-side" data-astro-cid-yvbahnfj> <div class="sb-card" data-astro-cid-yvbahnfj> <h4 data-astro-cid-yvbahnfj>相关教程</h4> <a href="/telegram-pc-shortcuts/" class="sb-rel-item" data-astro-cid-yvbahnfj> <h5 data-astro-cid-yvbahnfj>Telegram电脑版快捷键大全｜提升聊天效率的必备操作技巧</h5> </a> </div> <div class="sb-card" data-astro-cid-yvbahnfj> <h4 data-astro-cid-yvbahnfj>热门标签</h4> <div class="trend-tags" data-astro-cid-yvbahnfj> <a href="/articles/?category=download-pc" data-astro-cid-yvbahnfj>电脑版下载教程</a><a href="/articles/?category=install-pc" data-astro-cid-yvbahnfj>PC端安装步骤</a><a href="/articles/?category=crash-fix" data-astro-cid-yvbahnfj>电脑端闪退修复</a><a href="/articles/?category=win-settings" data-astro-cid-yvbahnfj>Windows适配设置</a><a href="/articles/?category=basic-usage" data-astro-cid-yvbahnfj>客户端基础使用</a> </div> </div> </aside> </div>  </main> <!-- Footer --> <footer class="site-footer"> <div class="footer-inner"> <div class="footer-brand"> <div class="footer-logo">TG电脑版教程</div> <p class="footer-desc">本站为独立教程站点，非 Telegram 官方。所有内容基于公开信息整理。</p> <span class="footer-badge">📚 独立教程网站</span> </div> <div class="footer-col"> <h4>快速导航</h4> <ul> <li><a href="/">首页</a></li> <li><a href="/articles/">所有教程</a></li> <li><a href="/about/">关于我们</a></li> <li><a href="/sitemap/">网站地图</a></li> </ul> </div> <div class="footer-col"> <h4>教程分类</h4> <ul> <li><a href="/articles/?category=download-pc">电脑版下载教程</a></li><li><a href="/articles/?category=install-pc">PC端安装步骤</a></li><li><a href="/articles/?category=crash-fix">电脑端闪退修复</a></li><li><a href="/articles/?category=win-settings">Windows适配设置</a></li><li><a href="/articles/?category=basic-usage">客户端基础使用</a></li> </ul> </div> <div class="footer-col"> <h4>支持</h4> <ul> <li><a href="/contact/">联系我们</a></li> <li><a href="/privacy/">隐私政策</a></li> </ul> </div> </div> <div class="footer-bottom"> <p>&copy; 2026 TG电脑版教程. All rights reserved.</p> </div> </footer> <!-- Inject global CSS (plain <style> avoids Astro's CSS processing) --> <style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,'Noto Sans SC',sans-serif;background:#ffffff;color:#1e293b;line-height:1.6}a{color:#0078D4;text-decoration:none}a:hover{color:#106EBE}.site-nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,0,0,.06);padding:0 24px}.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:60px}.nav-logo{font-size:18px;font-weight:700;color:#0078D4;text-decoration:none}.nav-links{display:flex;gap:24px}.nav-links a{font-size:14px;color:#475569;text-decoration:none;transition:color .2s}.nav-links a:hover,.nav-links a.active{color:#0078D4}.breadcrumb{max-width:1100px;margin:0 auto;padding:16px 24px 0;font-size:13px;color:#94a3b8}.breadcrumb a{color:#0078D4;text-decoration:none}.art-wrap{max-width:1100px;margin:0 auto;padding:24px;display:flex;gap:32px}.art-main{flex:1;min-width:0;background:#fff;border-radius:12px;padding:40px;box-shadow:0 1px 3px rgba(0,0,0,.04)}.art-main h1{font-size:28px;font-weight:800;line-height:1.4;margin-bottom:16px;color:#1e293b}.art-meta{display:flex;gap:16px;align-items:center;margin-bottom:24px;font-size:13px;color:#94a3b8}.art-tag{display:inline-block;font-size:11px;font-weight:600;padding:3px 10px;border-radius:6px}.art-tag.download-pc{background:#e0f2fe;color:#0369a1}.art-tag.install-pc{background:#ecfdf5;color:#065f46}.art-tag.crash-fix{background:#fef3c7;color:#92400e}.art-tag.win-settings{background:#f3e8ff;color:#7c3aed}.art-tag.basic-usage{background:#fce7f3;color:#be185d}.art-body{font-size:15px;line-height:1.9;color:#475569}.art-body h2{font-size:22px;font-weight:700;margin:36px 0 16px;color:#1e293b}.art-body h3{font-size:18px;font-weight:600;margin:28px 0 12px;color:#1e293b}.art-body p{margin-bottom:16px}.art-body ul,.art-body ol{margin:12px 0 16px 24px}.art-body li{margin-bottom:8px}.art-body code{background:#f5f7fa;padding:2px 6px;border-radius:4px;font-size:13px;color:#e11d48}.art-body pre{background:#1e293b;color:#e2e8f0;padding:20px;border-radius:8px;overflow-x:auto;margin:16px 0;font-size:13px}.art-side{width:300px;flex-shrink:0}.sb-card{background:#fff;border-radius:12px;padding:20px;margin-bottom:20px;box-shadow:0 1px 3px rgba(0,0,0,.04)}.sb-card h4{font-size:14px;font-weight:700;margin-bottom:12px;color:#1e293b}.sb-rel-item{display:flex;gap:10px;margin-bottom:12px;text-decoration:none;color:inherit}.sb-rel-item:hover h5{color:#0078D4}.sb-rel-item h5{font-size:13px;font-weight:500;line-height:1.4;transition:color .2s}.trend-tags{display:flex;flex-wrap:wrap;gap:8px}.trend-tags a{font-size:12px;padding:4px 12px;background:#f5f7fa;border-radius:16px;color:#475569;text-decoration:none;transition:all .2s}.trend-tags a:hover{background:#e0f2fe;color:#0078D4}.info-box{background:#f0f9ff;border-left:4px solid #0078D4;padding:16px 20px;margin:20px 0;border-radius:0 8px 8px 0;font-size:14px}.warn-box{background:#fffbeb;border-left:4px solid #f59e0b;padding:16px 20px;margin:20px 0;border-radius:0 8px 8px 0;font-size:14px}.warn-box strong{color:#92400e}.step-list{counter-reset:step;margin:20px 0}.step-card{background:#fff;border:1px solid #e8ecf1;border-radius:10px;padding:20px;margin-bottom:16px;counter-increment:step;position:relative;padding-left:64px}.step-card::before{content:counter(step);position:absolute;left:16px;top:20px;width:32px;height:32px;background:#0078D4;color:#fff;border-radius:50%;text-align:center;line-height:32px;font-weight:700;font-size:14px}.faq-list{margin:24px 0}.faq-item{border:1px solid #e8ecf1;border-radius:8px;margin-bottom:8px;overflow:hidden}.faq-q{padding:16px 20px;cursor:pointer;font-weight:600;font-size:15px;background:#f5f7fa;user-select:none;display:flex;justify-content:space-between;align-items:center}.faq-q:hover{background:#f0f7ff}.faq-arrow{font-size:12px;transition:transform .3s;color:#94a3b8}.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}.faq-a-inner{padding:0 20px 16px;font-size:14px;color:#475569;line-height:1.7}.faq-item.open .faq-a{max-height:300px}.faq-item.open .faq-arrow{transform:rotate(180deg)}table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px}th{background:#f0f7ff;padding:12px 16px;text-align:left;font-weight:600;border:1px solid #dce8f3}td{padding:12px 16px;border:1px solid #e8ecf1}.site-footer{background:#f0f7ff;border-top:1px solid #dce8f3;margin-top:80px}.footer-inner{max-width:1100px;margin:0 auto;padding:56px 24px 40px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}.footer-logo{font-size:20px;font-weight:700;color:#106EBE;margin-bottom:12px}.footer-desc{font-size:13px;line-height:1.8;margin-bottom:16px;color:#475569}.footer-badge{display:inline-block;font-size:12px;background:#fff;color:#0078D4;padding:6px 14px;border-radius:20px;font-weight:500;border:1px solid #b8ddf5}.footer-col h4{font-size:13px;font-weight:700;color:#1e293b;margin-bottom:16px;letter-spacing:.02em}.footer-col ul{list-style:none}.footer-col li{margin-bottom:10px}.footer-col li a{font-size:13px;color:#475569;text-decoration:none;transition:color .2s}.footer-col li a:hover{color:#0078D4}.footer-bottom{border-top:1px solid #dce8f3;text-align:center;padding:20px 24px;font-size:12px;color:#94a3b8}@media(max-width:768px){.nav-links{display:none}.art-wrap{flex-direction:column}.art-main{padding:24px}.art-side{width:100%}.footer-inner{grid-template-columns:1fr 1fr;gap:32px}.footer-brand{grid-column:1/-1}}@media(max-width:480px){.footer-inner{grid-template-columns:1fr}}</style> <!-- FAQ accordion JS --> <script>
+    document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.faq-q').forEach(function(q){q.addEventListener('click',function(){var item=q.parentElement;var open=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('open');i.querySelector('.faq-a').style.maxHeight='0'});if(!open){item.classList.add('open');item.querySelector('.faq-a').style.maxHeight='500px'}})})});
+  </script> </body> </html>
